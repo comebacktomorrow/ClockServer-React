@@ -1,0 +1,56 @@
+form.clock-control {
+    height: 8em;
+    background-color: none;
+    width:  13em;
+
+    display: flexbox;
+    padding: 1em;
+    color: white;
+
+}
+
+.clock-control__name {
+    width: 91%
+}
+
+.clock-control__time > input {
+    width: 3em;
+}
+
+.clock-control input, .clock-control__check {
+    appearance: none;
+    background-color: rgb(80, 80, 80);
+    border-radius: 0.3em;
+    border-width: 0.1em;
+    border-style: solid;
+    color: white;
+    border-color: dimgray;
+    padding: 0.4em;
+}
+
+.clock-control__buttons button {
+    background-image:          linear-gradient(0deg,  hsla(0.0, 0.0%, 60.0%, 1.00) 0.0% , hsla(0.0, 0.0%, 50.0%, 1.00) 50.5% , rgb(119, 119, 119) 50.7% , hsla(0.0, 0.0%, 70.0%, 1.00) 100.0% ); /* Standards Compliant */
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 5px 5px 5px 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+    padding: 0.7em 1em;
+
+        /*  Shadow & Inner Shadow */
+	box-shadow:0px 1px 2px hsla(0.0, 0.0%, 0.0%, 0.50),inset 0px 1px 0px hsla(0.0, 0.0%, 100.0%, 0.15);
+
+    color:rgb(54, 54, 54);
+    font-weight: bold;
+    text-shadow: 0.1em 0em 0.3em rgba(255, 255, 255, 0.2);
+    width: 7em;
+    transition-duration: 0.2s;
+
+}
+
+
+
+.clock-control__buttons button:hover {
+    background-image:          linear-gradient(0deg,  hsla(100.0, 100.0%, 60.0%, 1.00) 0.0% , hsla(100.0, 100.0%, 50.0%, 1.00) 50.5% , hsla(100.0, 100%, 50.0%, 1.00) 50.7% , hsla(100.0, 100.0%, 70.0%, 1.00) 100.0% ); /* Standards Compliant */
+}
+
+.clock-control__buttons button:hover {
+    background-image:          linear-gradient(0deg,  hsla(00.0, 100.0%, 60.0%, 1.00) 0.0% , hsla(00.0, 100.0%, 50.0%, 1.00) 50.5% , hsla(00.0, 100%, 50.0%, 1.00) 50.7% , hsla(0.0, 100.0%, 70.0%, 1.00) 100.0% ); /* Standards Compliant */
+}
